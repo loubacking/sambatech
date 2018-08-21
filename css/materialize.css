@@ -8069,5 +8069,273 @@ input[type=range]::-ms-thumb {
     margin-top: 1.2rem;
   }
 }
+/* Primeira seção */
+html, body, .block {
+  height: 100%;
+}
+
+body {
+  background: url("../images/background.jpg");
+  background-repeat: no-repeat;
+}
+
+.row {
+  margin-bottom: 0px;
+}
+
+.logo {
+  width: 40px;
+  margin: 10px;
+}
+
+.container {
+  color: white;
+}
+
+.container h4 {
+  font-weight: 200;
+}
+
+/* Buttons */
+.nav-sign {
+  z-index: 0;
+  margin: 15px 15px;
+  padding: 0 20px;
+  line-height: 33px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  background-color: transparent;
+  border: 1.5px solid white;
+  color: white;
+  border-radius: 90px;
+  text-transform: none;
+}
+
+.nav-sign:hover {
+  z-index: 0;
+  margin: 15px 15px;
+  padding: 0 20px;
+  line-height: 33px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  background-color: rgba(250, 250, 250, 0.3);
+  border: 1.5px solid white;
+  color: white;
+  border-radius: 90px;
+}
+
+.nav-subscribe {
+  z-index: 0;
+  margin: 15px 0 15px 0;
+  padding: 0px 10px;
+  line-height: 33px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  background-color: #e56b6b;
+  border: 1.5px solid #e56b6b;
+  color: white;
+  border-radius: 90px 0 0 90px;
+  font-size: 12px;
+  text-transform: none;
+}
+
+.nav-subscribe:hover {
+  background-color: rgba(229, 107, 107, 0.8);
+}
+
+.nav-subscribe2 {
+  left: -5px;
+  z-index: 0;
+  margin: 15px 15px 15px 0;
+  padding: 0px 10px;
+  line-height: 33px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  background-color: #ff7777;
+  border: 1.5px solid #ff7777;
+  color: white;
+  border-radius: 0 90px 90px 0;
+  font-size: 12px;
+}
+
+.nav-subscribe2:hover {
+  background-color: rgba(255, 119, 119, 0.8);
+}
+
+.nav-subscribe span {
+  font-size: 10px;
+}
+
+.link-down {
+  position: relative;
+  margin: 5%;
+}
+
+/* Videos Style */
+.video_01 {
+  background: url("../images/video01.jpg");
+  height: 180px;
+  background-size: cover;
+}
+
+.video_02 {
+  background: url("../images/video02.jpg");
+  height: 180px;
+  background-size: cover;
+}
+
+.video_03 {
+  background: url("../images/video03.jpg");
+  height: 180px;
+  background-size: cover;
+}
+
+.video_04 {
+  background: url("../images/video04.jpg");
+  height: 180px;
+  background-size: cover;
+}
+
+.carousel {
+  height: 200px !important;
+}
+
+.carousel .carousel-item {
+  opacity: 1 !important;
+}
+
+.videos > .card {
+  margin-right: 20px;
+}
+
+.video-play {
+  padding-top: 25%;
+}
+
+i {
+  color: #fff;
+  margin: 20px 10px;
+}
+
+span {
+  color: white;
+}
+
+.card {
+  width: 260px !important;
+}
+
+.see-all {
+  background: rgba(50, 50, 50, 0.3);
+  height: 180px;
+  border: 1px solid #969696 !important;
+  margin-left: 10px;
+  width: 75px !important;
+}
+
+.see-all p {
+  padding-top: 60px;
+  color: #ddd6d6 !important;
+}
+
+.video-time > span {
+  font-size: 12px;
+}
+
+/* Segunda seção */
+.border-upper {
+  border-top: 2px solid #f17a71;
+}
+
+.img01 {
+  background: url("../images/img01.jpg");
+  height: 600px;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.img02 {
+  background: url("../images/img02.jpg");
+  height: 300px;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.img03 {
+  background: url("../images/img03.jpg");
+  height: 300px;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.img04 {
+  background: url("../images/img04.jpg");
+  height: 300px;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.img05 {
+  background: url("../images/img05.jpg");
+  height: 300px;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.img06 {
+  background: url("../images/img06.jpg");
+  height: 300px;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  background-position-y: -160px !important;
+}
+
+.img07 {
+  background: url("../images/img07.jpg");
+  height: 300px;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+  .img01 {
+    height: 250px !important;
+  }
+
+  .img02 {
+    height: 150px !important;
+  }
+
+  .img03 {
+    height: 150px !important;
+  }
+
+  .img04 {
+    height: 150px !important;
+    background-position-y: 180px !important;
+  }
+
+  .carousel {
+    margin: 20% 0 40% 0;
+  }
+}
+@media (min-width: 1700px) {
+  .carousel {
+    left: -100px;
+    top: 200px;
+  }
+
+  .link-down {
+    margin: 15%;
+  }
+}
 
 /*# sourceMappingURL=materialize.css.map */

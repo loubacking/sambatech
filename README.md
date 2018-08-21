@@ -2,8 +2,8 @@
 
 O projeto utiliza Sass para compilar o Style do projeto.
 
-Para utiliza-lo, basta baixar via Node Package o Sass pelo código:
-    Obs: Dependência já incluída no package.json;
+Para utiliza-lo, basta baixar via Node Package o Sass pelo código: (Dependência já incluída no package.json)
+
 ```
 npm install
 ```
