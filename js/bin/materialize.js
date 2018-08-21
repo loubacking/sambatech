@@ -10457,13 +10457,13 @@ $jscomp.polyfill = function (e, r, p, m) {
   var _defaults = {
     duration: 200, // ms
     dist: 0, // zoom scale TODO: make this more intuitive as an option
-    shift: 0, // spacing for center image
+    shift: -0, // spacing for center image
     padding: 150, // Padding between non center items
-    numVisible: 4, // Number of visible items in carousel
+    numVisible: 3, // Number of visible items in carousel
     fullWidth: false, // Change to full width styles
     indicators: false, // Toggle indicators
     noWrap: false, // Don't wrap around and cycle through items.
-    onCycleTo: null // Callback for when a new slide is cycled to.
+    onCycleTo: 1 // Callback for when a new slide is cycled to.
   };
 
   /**

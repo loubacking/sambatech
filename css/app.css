@@ -86,8 +86,32 @@ body{
 
 /* Videos Style */
 
-.videos{
-    cursor: pointer;
+.video_01{
+    background: url('../images/video01.jpg'); 
+    height: 180px; 
+    background-size: cover
+}
+
+.video_02{
+    background: url('../images/video02.jpg'); 
+    height: 180px; 
+    background-size: cover
+}
+
+.video_03{
+    background: url('../images/video03.jpg'); 
+    height: 180px; 
+    background-size: cover
+}
+
+.video_04{
+    background: url('../images/video04.jpg');
+    height: 180px;
+    background-size: cover
+}
+
+.carousel .carousel-item{
+    opacity: 1 !important; 
 }
 
 .videos > .card{
@@ -108,13 +132,14 @@ span{
 }
 
 .card{
-    width: 250px !important;
+    width: 260px !important;
 }
 
 .see-all{
     background: rgba(50, 50, 50, 0.3); height: 180px;
     border: 1px solid rgb(150, 150, 150) !important;
-    width: 100px !important;
+    margin-left: 10px;
+    width: 75px !important;
 }
 
 .see-all p{
@@ -124,18 +149,10 @@ span{
 
 .link-down{
     position: relative;
-    margin-top: 10%;
+    margin: 5%;
 }
 
 @media (max-width: 600px){
-    .video_3{
-        display: none;
-    }
-
-    .video_4{
-        display: none;
-    }
-
     .img01{
         height: 250px !important;
     }
@@ -152,18 +169,16 @@ span{
         height: 150px !important;
         background-position-y: 180px !important; 
     }
+
+    .carousel {
+        margin: 20% 0 40% 0;
+    }
 }
 
-@media (min-width: 600px){
-
-}
-
-@media (min-width: 992px){
-
-}
-
-@media (min-width: 1200px){
-
+@media (min-width: 1700px){
+    .carousel{
+        left: -100px;
+    }
 }
 
 .carousel{
